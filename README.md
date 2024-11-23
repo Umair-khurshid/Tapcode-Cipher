@@ -9,12 +9,16 @@ Tapcode Cipher is a simple command-line application written in Rust that impleme
 - **Load Grid**: Load a saved grid from a file.
 .
 ## Usage Instructions:
-Run the program using cargo run to start the interactive command-line interface.
+Run the program using `cargo run` to start the interactive command-line interface.
 Choose an option from the menu:
+
+![menu](https://github.com/user-attachments/assets/fb071edf-fecb-4e01-a31d-d09bda72c593)
 
 ### Example:
 **Encoding**:
 
-
+![encode](https://github.com/user-attachments/assets/758a139f-cfc8-4864-aa60-86d475c6951c)
 
 **Decoding**
+
+![decode](https://github.com/user-attachments/assets/43ce3dcf-96bb-4e12-a6d5-0ab469c004ff)
