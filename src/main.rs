@@ -92,10 +92,6 @@ fn display_help() {
     println!("4. Save Grid: Save the current grid to a file.");
     println!("5. Load Grid: Load a grid from a file.");
     println!("6. Exit: Quit the program.\n");
-
-    println!("Tapcode Notes:");
-    println!("  - Separate words in Tapcode using '|'.");
-    println!("  - Messages must only contain characters from the grid.\n");
 }
 
 fn save_grid_to_file(tapcode: &Tapcode) {
@@ -148,7 +144,6 @@ fn main() {
         io::stdin().read_line(&mut choice).unwrap();
         match choice.trim() {
             "1" => {
-                println!("Note: Use '|' to separate words in Tapcode.");
                 print!("Enter message to encode: ");
                 io::stdout().flush().unwrap();
 
@@ -161,7 +156,6 @@ fn main() {
                 }
             }
             "2" => {
-                println!("Note: Use '|' to separate words in Tapcode (e.g., ... .... | .... ....).");
                 print!("Enter Tapcode to decode: ");
                 io::stdout().flush().unwrap();
 
