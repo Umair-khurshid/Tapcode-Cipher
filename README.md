@@ -1,4 +1,4 @@
-# Tapcode Cipher
+# Tapcode Cipher  [![Rust](https://github.com/Umair-khurshid/Tapcode-Cipher/actions/workflows/rust.yml/badge.svg)](https://github.com/Umair-khurshid/Tapcode-Cipher/actions/workflows/rust.yml) [![rust-clippy analyze](https://github.com/Umair-khurshid/Tapcode-Cipher/actions/workflows/rust-clippy.yml/badge.svg)](https://github.com/Umair-khurshid/Tapcode-Cipher/actions/workflows/rust-clippy.yml)
 Tapcode Cipher is a simple command-line application written in Rust that implements the Tapcode or Prison cipher, which is a system of encoding and decoding messages using a 5x5 grid of letters. Each letter is represented by a series of "taps," where the number of taps corresponds to the position of the letter in the grid. 
 
 ## Features:
